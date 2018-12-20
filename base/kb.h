@@ -35,9 +35,11 @@
  * @brief Default KB location.
  *
  * TODO   This should eventually be expressed as an URI when/if multiple KB
- *        backends are supported (e.g.: redis:///tmp/redis.sock).
+ *        backends are supported  Gamle => (e.g.: redis:///tmp/redis.sock).
+ *        New that we (Bithex) use => /usr/local/var/run/redis.sock
  */
-#define KB_PATH_DEFAULT "/tmp/redis.sock"
+//#define KB_PATH_DEFAULT "/tmp/redis.sock"
+#define KB_PATH_DEFAULT "/usr/local/var/run/redis.sock"
 
 
 /**
